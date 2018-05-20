@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--
+     <div>
+        <video id="video" src="RADWIMPS - Mountain Top.flac" width="600">当前浏览器不支持video元素</video>
+    </div>
+    <div id="progressTime" style="display:none">
+        <div style="float:left">
+            <progress id="progress" max="100" style="width:450px; ">
+            </progress>
+        </div>
+        <div id="showTime" style="float:left;margin-left:15px"></div>
+        <div style="clear:both"></div>
+    </div>
+    </div>
+    <div>
+        <input type="button" id="btnPlay" onclick="playOrPause()" value="播放" />
+        <input type="button" id="btnSpeedUp" onclick="speedUp()" value="快放" />
+        <input type="button" id="btnSpeedUpDown" onclick="speedDown()" value="慢放" />
+        <input type="button" id="btnVolumeUp" onclick="volumeUp()" value="提高音量" />
+        <input type="button" id="btnVolumeDown" onclick="volumeDown()" value="降低音量" />
+    </div> 
+-->
+    <div id="music">
+        <div id="zhuan"></div>
+        <p>
+            <SPan class="music_span">Welcome to DuJiangYan</SPan>
+        </p>
+        <div class="left-bar">
+            <form action="">
+                <span>选择音乐：</span>
+                <select name="m">
+                    <option class="music-name">RADWIMPS - Shape Of Miracle</option>
+                    <option class="music-name">RADWIMPS - Mountain Top</option>
+                    <option class="music-name">赵雷 - 成都</option>
+                    <option class="music-name">李玉刚 - 刚好遇见你</option>
+                </select>
+            </form>
+        </div>
+        <div class="content">
+            <SPan>播放控制：</SPan>
+            <video src="" id="video1" controls autoplay></video>
+            <!--			 <audio src="" id="video1" controls autoplay></audio>-->
+        </div>
+    </div>
+    <script src="js/music.js"></script>
+         
+</body>
+
+</html>
