@@ -24,3 +24,21 @@ function backBottom() {
         }, speed);
     });
 }
+
+$(function(){
+		var time = new Date();
+		var year = time.getFullYear();
+		var month = time.getMonth();
+		var day = time.getDate();
+		var d = time.getDay();
+		var hour = time.getHours();
+		var minute = time.getMinutes();
+		var second = time.getSeconds();
+		var week = ["星期日","星期一","星期二","星期三","星期四","星期五","星期六"];
+		
+		var timeStr = (year)+"年"+(month+1)+"月"+day+"日   "+week[d];
+		
+		document.getElementById("time").innerHTML = timeStr;
+
+})
+
